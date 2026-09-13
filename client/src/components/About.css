@@ -1,0 +1,34 @@
+.about-grid {
+  max-width: 720px;
+}
+
+.about-paragraph {
+  color: var(--text-dim);
+  margin-bottom: 16px;
+  max-width: 620px;
+}
+
+.about-education {
+  margin-top: 28px;
+  padding: 20px 24px;
+  border-left: 2px solid var(--accent);
+  background: var(--card);
+  border-radius: 0 12px 12px 0;
+}
+
+.about-education h3 {
+  font-size: 1.05rem;
+  margin-bottom: 4px;
+}
+
+.about-education-meta {
+  color: var(--accent-2);
+  font-size: 0.88rem;
+  margin-bottom: 8px;
+}
+
+.about-education-detail {
+  color: var(--text-dim);
+  font-size: 0.92rem;
+}
+

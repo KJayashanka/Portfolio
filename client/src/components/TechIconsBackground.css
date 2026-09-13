@@ -1,0 +1,19 @@
+.tech-icons-bg {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.tech-icon {
+  position: absolute;
+  color: var(--text-dim);
+  opacity: 0.14;
+}
+
+@media (max-width: 640px) {
+  .tech-icons-bg {
+    opacity: 0.6;
+  }
+}
